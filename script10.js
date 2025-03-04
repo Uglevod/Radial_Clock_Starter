@@ -233,16 +233,16 @@ function drawArc(timestamp) {
       ctx.beginPath();
       
       // Правильный расчет углов на основе времени
-      //const dayMinutes = dayDuration * 60;
-      //const startAngle = ((periodStartTime / dayMinutes) * 360) * Math.PI / 90;
-      //const endAngle = ((periodEndTime / dayMinutes) * 360) * Math.PI / 90;
+      const dayMinutes = dayDuration * 60;
+      const startAngle = ((periodStartTime / dayMinutes) * 360) * Math.PI / 90;
+      const endAngle = ((periodEndTime / dayMinutes) * 360) * Math.PI / 90;
       
       // Рисование дуги с подсветкой
-      //ctx.arc(centerX, centerY, middleRadius, startAngle, endAngle);
-      //ctx.lineWidth = 1; // Делаем линию чуть толще для выделения
-      //ctx.strokeStyle = period.color;
-      //ctx.lineCap = 'butt';
-      //ctx.stroke();
+      ctx.arc(centerX, centerY, middleRadius, startAngle, endAngle);
+      ctx.lineWidth = 1; // Делаем линию чуть толще для выделения
+      ctx.strokeStyle = period.color;
+      ctx.lineCap = 'butt';
+      ctx.stroke();
 
       // Проверка корректности углов
       if (startAngle > endAngle) {
