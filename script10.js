@@ -45,7 +45,7 @@ let innerRadius = outerRadius * 0.8;
 let startHour = 6; // Например, начинаем с 3 часов
 
 // Параметр длительности дня (например, 12 или 24 часа)
-let dayDuration = 15; // По умолчанию 12 часов
+let dayDuration = 24; // По умолчанию 12 часов
 
 // Добавляем после существующих глобальных переменных
 let animationStartTime = Date.now();
@@ -79,7 +79,7 @@ let plan = [
   { name: "len", title: "Лень" , color: "#9B59B6", prc: 20, cat: "len", role: "lenivec" },      // Насыщенный фиолетовый
   { name: "free", title: "Свое", color: "#2ECC71", prc: 40, cat: "free", role: "cheld" },       // Изумрудный зеленый
   { name: "predson", title: "Предсон", color: "#F1C40F", prc: 10, cat: "predson", role: "sonmen" }, // Золотой
-  //{ name: "predson", title: "Сон", color: "#01a4a0", prc: 80, cat: "predson", role: "sonmen" } // Золотой
+  { name: "predson", title: "Сон", color: "#01a4a0", prc: 80, cat: "predson", role: "sonmen" }  
    
 ];
 
