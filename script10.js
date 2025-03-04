@@ -78,8 +78,8 @@ let plan = [
   { name: "dance", title: "Дансы", color: "#20A00F", prc: 20, cat: "dance", role: "dancer" },       
   { name: "len", title: "Лень" , color: "#9B59B6", prc: 20, cat: "len", role: "lenivec" },      // Насыщенный фиолетовый
   { name: "free", title: "Свое", color: "#2ECC71", prc: 40, cat: "free", role: "cheld" },       // Изумрудный зеленый
-  { name: "predson", title: "Предсон", color: "#F1C40F", prc: 10, cat: "predson", role: "sonmen" }, // Золотой
-  { name: "predson", title: "Сон", color: "#01a4a0", prc: 80, cat: "predson", role: "sonmen" }  
+  { name: "predson", title: "Предсон", color: "#F1C40F", prc: 10, cat: "predson", role: "sonman" }, // Золотой
+  { name: "predson", title: "Сон", color: "#01a4a0", prc: 80, cat: "predson", role: "sonman" }  
    
 ];
 
@@ -101,7 +101,7 @@ let roles = [
   { role: "dancer", name:"Дансер", disc: "Дансы", prehist: "История такова", goal: "Отдансится танцев" },
   { role: "lenivec", name:"Ленивец", disc: "Мастер в лени", prehist: "История такова", goal: "Выполнять задачи лени" },
   { role: "cheld", name:"Человек", disc: "Делать приятное", prehist: "История такова", goal: "Творческое проявление" },
-  { role: "sonmen", name:"Сонник", disc: "Мастер подготовки ко сну", prehist: "История такова", goal: "Выполнять задачи вечерней подготовки ко сну" }
+  { role: "sonman", name:"Сонник", disc: "Мастер подготовки ко сну", prehist: "История такова", goal: "Выполнять задачи вечерней подготовки ко сну" }
 ];
 
 // Предзагрузка изображений ролей
